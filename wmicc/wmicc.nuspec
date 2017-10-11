@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>wmicc</id>
-    <version>1.0.0</version>
-    <packageSourceUrl></packageSourceUrl>
-    <owners>skatterbrainz</owners>
-    <title>WMI Code Creator (Install)</title>
-    <authors>Microsoft</authors>
-    <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
-    <iconUrl>http://img1.wikia.nocookie.net/__cb20130407135643/logopedia/images/4/44/Microsoft_logo.svg</iconUrl>
-    <copyright>2005-2017 Microsoft Corporation</copyright>
-    <projectSourceUrl>https://technet.microsoft.com/en-us/library/2006.01.utilityspotlight.aspx</projectSourceUrl>
-    <docsUrl>https://msdn.microsoft.com/en-us/library/aa394582(v=vs.85).aspx</docsUrl>
-    <mailingListUrl>mailto:chscovil@microsoft.com</mailingListUrl>
-    <tags>wmicc wmi windows scripting microsoft</tags>
-    <summary>The WMI Code Creator tool allows you to generate VBScript, C#, and VB .NET code that uses WMI to complete a management task such as querying for management data, executing a method from a WMI class, or receiving event notifications using WMI.</summary>
-	<description>The WMI Code Creator tool generates code that uses WMI to obtain management information or perform management tasks. You can use the tool to learn how to manage computers using WMI scripting and WMI .NET. The tool generates code that runs on the local computer, a remote computer, or a group of remote computers based on your selection from the Target Computer menu on the tool. You can also execute the generated code directly from the tool.
+	<metadata>
+		<id>wmicc</id>
+		<version>1.0.0</version>
+		<packageSourceUrl>https://github.com/Skatterbrainz/ChocolateyPackages/tree/master/wmicc</packageSourceUrl>
+		<owners>skatterbrainz</owners>
+		<title>WMI Code Creator (Install)</title>
+		<authors>Microsoft</authors>
+		<projectUrl>https://github.com/Skatterbrainz/ChocolateyPackages/tree/master/wmicc</projectUrl>
+		<iconUrl>http://img1.wikia.nocookie.net/__cb20130407135643/logopedia/images/4/44/Microsoft_logo.svg</iconUrl>
+		<copyright>2005-2017 Microsoft Corporation</copyright>
+		<projectSourceUrl>https://technet.microsoft.com/en-us/library/2006.01.utilityspotlight.aspx</projectSourceUrl>
+		<docsUrl>https://msdn.microsoft.com/en-us/library/aa394582(v=vs.85).aspx</docsUrl>
+		<mailingListUrl>mailto:chscovil@microsoft.com</mailingListUrl>
+		<tags>wmicc wmi windows scripting microsoft</tags>
+		<summary>The WMI Code Creator tool allows you to generate VBScript, C#, and VB .NET code that uses WMI to complete a management task such as querying for management data, executing a method from a WMI class, or receiving event notifications using WMI.</summary>
+		<description>The WMI Code Creator tool generates code that uses WMI to obtain management information or perform management tasks. You can use the tool to learn how to manage computers using WMI scripting and WMI .NET. The tool generates code that runs on the local computer, a remote computer, or a group of remote computers based on your selection from the Target Computer menu on the tool. You can also execute the generated code directly from the tool.
 
 The tool is meant to help IT Professionals quickly create management scripts and to help developers learn WMI scripting and WMI .NET. The tool helps take the complexity out of writing code that uses WMI and helps developers and IT Professionals understand how powerful and useful WMI can be for managing computers.
 
@@ -25,27 +25,10 @@ Using the tool, you can query for management information such as the name and ve
 The tool also allows you to browse through the available WMI namespaces and classes on the local computer to find their descriptions, properties, methods, and qualifiers.
 
 The code that creates the tool is also included in the download. The tool was created using WMI .NET, and the code for the tool can help developers understand how WMI .NET is used to create applications and manage information. Be sure to read the end-user license agreement that is included in the download.</description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-    <!-- =============================== -->      
-
-    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
-    <!--<dependencies>
-      <dependency id="" version="__MINIMUM_VERSION__" />
-      <dependency id="" version="[__EXACT_VERSION__]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
-      <dependency id="" />
-      <dependency id="chocolatey-core.extension" version="1.1.0" />
-    </dependencies>-->
-    <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
-         - You want to use Get-UninstallRegistryKey on less than 0.9.10 (in chocolateyUninstall.ps1)
-         - You want to use Get-PackageParameters and on less than 0.11.0
-         - You want to take advantage of other functions in the core community maintainer's team extension package
-    -->
-  </metadata>
-  <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
-    <file src="tools\**" target="tools" />
-    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
-  </files>
+	</metadata>
+	<files>
+		<!-- this section controls what actually gets packaged into the Chocolatey package -->
+		<file src="tools\**" target="tools" />
+		<!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+	</files>
 </package>
