@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop'; # stop on all errors
+$ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Lingering Object Liquidator*'  #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
-  fileType      = 'MSI' #only one of these: MSI or EXE (ignore MSU for now)
+  softwareName  = 'Lingering Object Liquidator*'
+  fileType      = 'MSI'
   silentArgs    = "/qn /norestart"
-  validExitCodes= @(0, 3010, 1605, 1614, 1641) # https://msdn.microsoft.com/en-us/library/aa376931(v=vs.85).aspx
+  validExitCodes= @(0, 3010, 1605, 1614, 1641)
 }
 
 $uninstalled = $false
