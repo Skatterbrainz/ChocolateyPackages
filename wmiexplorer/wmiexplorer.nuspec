@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wmiexplorer</id>
+    <version>2.0.0.0</version>
+    <packageSourceUrl> </packageSourceUrl>
+    <owners>skatterbrainz</owners>
+    <title>WMI Explorer (Install)</title>
+    <authors>vinpa</authors>
+    <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/wmiexplorer.png</iconUrl>-->
+    <copyright>2014 vinpa</copyright>
+    <licenseUrl>https://wmie.codeplex.com/license</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://wmie.codeplex.com/SourceControl/latest</projectSourceUrl>
+    <docsUrl>https://wmie.codeplex.com/documentation</docsUrl>
+    <bugTrackerUrl>https://wmie.codeplex.com/workitem/list/basic</bugTrackerUrl>
+    <tags>wmiexplorer,wmi,windows,cim,explorer</tags>
+    <summary>WMI Explorer is a utility intended to provide the ability to browse and view WMI namespaces/classes/instances/properties in a single pane of view and is inspired by the PowerShell based WMI Explorer written by Marc.</summary>
+    <description>WMI Explorer is a utility intended to provide the ability to browse and view WMI namespaces/classes/instances/properties in a single pane of view and is inspired by the PowerShell based WMI Explorer written by Marc.
+	As someone who works with Configuration Manager (SCCM), I spend a lot of time in wbemtest trying to find things which is very time consuming. I started this project with the intention to combine the features of currently available WMI Explorers, and to make it easier and quicker to find what you're looking for in WMI.
+	</description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
