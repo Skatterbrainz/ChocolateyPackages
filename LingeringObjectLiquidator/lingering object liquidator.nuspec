@@ -12,8 +12,7 @@
     <projectUrl>https://blogs.technet.microsoft.com/askds/2017/10/09/introducing-lingering-object-liquidator-v2/</projectUrl>
     <iconUrl>http://www.iconninja.com/files/275/570/417/microsoft-windows8-windows-icon.svg</iconUrl>
     <copyright>2017 Microsoft Corporation</copyright>
-    <projectSourceUrl>https://blogs.technet.microsoft.com/askds/2017/10/09/introducing-lingering-object-liquidator-v2/</projectSourceUrl>
-    <docsUrl>https://blogs.technet.microsoft.com/askds/2017/10/09/introducing-lingering-object-liquidator-v2/</docsUrl>
+    <docsUrl>https://blogs.technet.microsoft.com/askds/2014/09/15/remove-lingering-objects-that-cause-ad-replication-error-8606-and-friends/</docsUrl>
     <mailingListUrl>mailto:askdspub@microsoft.com</mailingListUrl>
     <bugTrackerUrl>https://windowsserver.uservoice.com/forums/304621-active-directory?category_id=320170</bugTrackerUrl>
     <tags>lingering object liquidator microsoft active directory</tags>
