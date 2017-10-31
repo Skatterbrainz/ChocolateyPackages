@@ -2,3 +2,5 @@
 
 (Unsupported) Microsoft utility for browsing WMI namespaces, classes, properties, methods, events, and generating script code 
 to reuse for other tasks.
+
+Chocolatey package available at https://chocolatey.org/packages/wmicc
