@@ -6,7 +6,7 @@ Write-Host "setting up chocolatey" -ForegroundColor Green
 if (!(Test-Path "$env:PROGRAMDATA\chocolatey\choco.exe")) {
     Write-Verbose "installing chocolatey"
     try {
-        Invoke-Expression ((System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+        Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
         Write-Verbose "chocolatey has been installed. yay!"
     }
     catch {
