@@ -20,7 +20,7 @@ else {
 }
 Write-Verbose "installing packages from internal list"
 $pkgs = "googlechrome,7zip,notepadplusplus,vlc,slack,sysinternals,azurepowershell,git,visualstudiocode,azurestorageexplorer,keepass,jing,office365proplus,paint.net,putty,wmicc,teamviewer"
-
+$count = 0
 foreach ($pkg in $pkgs -split ',') {
     if ($WhatIfPreference) {
         choco install $pkg -whatif
@@ -28,8 +28,9 @@ foreach ($pkg in $pkgs -split ',') {
     else {
         choco install $pkg -y
     }
+    $count++
 }
 Write-Host "finished!"-ForegroundColor Green
 $time2 = Get-Date
 $ts = $time2 - $time1
-Write-Host $("elapsed time: {0:g}" -f $ts) -ForegroundColor Green
+Write-Host $("$count packages installed. Elapsed time: {0:g}" -f $ts) -ForegroundColor Green
