@@ -1,6 +1,14 @@
-# WMI Code Creator 1.0 (WMICC)
+# Chocolatey Package
 
-(Unsupported) Microsoft utility for browsing WMI namespaces, classes, properties, methods, events, and generating script code 
-to reuse for other tasks.
+## Properties
 
-Chocolatey package available at https://chocolatey.org/packages/wmicc
+* Package Name: wmicc
+* Product Name: WMI Code Creator 1.0
+* Package link: https://chocolatey.org/packages/wmicc
+
+## Usage
+
+```powershell
+choco install wmicc
+choco uninstall wmicc
+```

@@ -1,5 +1,14 @@
-## Lingering Object Liquidator
+# Chocolatey Package
 
-(Unsupported) Microsoft utility for cleaning up Active Directory objects.
+## Properties
 
-Chocolatey package available at https://chocolatey.org/packages/lingering-object-liquidator
+* Package Name: lingering-object-liquidator
+* Product Name: Lingering Object Liquidator 1.0
+* Package link: https://chocolatey.org/packages/lingering-object-liquidator
+
+## Usage
+
+```powershell
+choco install lingering-object-liquidator
+choco uninstall lingering-object-liquidator
+```
