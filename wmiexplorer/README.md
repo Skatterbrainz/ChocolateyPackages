@@ -1,5 +1,14 @@
-# WMI Explorer
+# Chocolatey Package
 
-(Unsupported) Microsoft utility for browsing and searching WMI namespaces, classes, properties, methods and events.
+## Properties
 
-Chocolatey package available at https://chocolatey.org/packages/wmiexplorer
+* Package Name: wmiexplorer
+* Product Name: WMI Explorer
+* Package link: https://chocolatey.org/packages/wmiexplorer
+
+## Usage
+
+```powershell
+choco install wmiexplorer
+choco uninstall wmiexplorer
+```
