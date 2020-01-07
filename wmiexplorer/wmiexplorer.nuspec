@@ -11,11 +11,11 @@
     <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/wmiexplorer.png</iconUrl>-->
     <copyright>2014 Vinay Pamnani</copyright>
-    <licenseUrl>https://wmie.codeplex.com/license</licenseUrl>
+    <licenseUrl>https://github.com/vinaypamnani/wmie2/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://wmie.codeplex.com/SourceControl/latest</projectSourceUrl>
-    <docsUrl>https://wmie.codeplex.com/documentation</docsUrl>
-    <bugTrackerUrl>https://wmie.codeplex.com/workitem/list/basic</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/vinaypamnani/wmie2</projectSourceUrl>
+    <docsUrl>https://github.com/vinaypamnani/wmie2/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/vinaypamnani/wmie2/issues</bugTrackerUrl>
     <tags>wmiexplorer,wmi,windows,cim,explorer</tags>
     <summary>WMI Explorer is a utility intended to provide the ability to browse and view WMI namespaces/classes/instances/properties in a single pane of view.</summary>
     <description>WMI Explorer is a utility intended to provide the ability to browse and view WMI namespaces/classes/instances/properties in a single pane of view and is inspired by the PowerShell based WMI Explorer written by Marc.
