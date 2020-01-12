@@ -5,10 +5,10 @@ in verifying that this package's contents are trustworthy.
  
 1.  Download the zip:
  
-	x86/x64: http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=wmie&DownloadId=924042&FileTime=130588611924570000&Build=21063
+	x86/x64: https://github.com/vinaypamnani/wmie2/releases/download/v2.0.0.2/WmiExplorer_2.0.0.2.zip
  
 2.  Use the Windows PowerShell cmdlet 'Get-FileHash'
 
-	Get-FileHash -Path '.\WMIExplorer_2.0.0.0.zip'
+	Get-FileHash -Path '.\WmiExplorer_2.0.0.2.zip'
  
-    checksum: F353C06DE8188A820FF7AC6FFD1CC296C44834EF4CF6BC248EF86D418D201B2E
+    checksum: 343695AE7BCD048DA51EBE0949BDF746F7C16F648746D9A4554B2CB888007851
