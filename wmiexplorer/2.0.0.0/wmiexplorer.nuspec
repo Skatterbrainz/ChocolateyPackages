@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>wmiexplorer</id>
+    <version>2.0.0.0</version>
+    <title>WMI Explorer 2.0.0.0 (Install)</title>
+    <authors>Vinay Pamnani</authors>
+    <owners>skatterbrainz</owners>
+    <licenseUrl>https://wmie.codeplex.com/license</licenseUrl>
+    <projectUrl>https://wmie.codeplex.com/</projectUrl>
+    <iconUrl>https://i.stack.imgur.com/DZc0e.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>WMI Explorer is a utility intended to provide the ability to browse and view WMI namespaces/classes/instances/properties in a single pane of view and is inspired by the PowerShell based WMI Explorer written by Marc.
+		As someone who works with Configuration Manager (SCCM), I spend a lot of time in wbemtest trying to find things which is very time consuming. I started this project with the intention to combine the features of currently available WMI Explorers, and to make it easier and quicker to find what you're looking for in WMI.</description>
+    <summary>WMI Explorer is a utility intended to provide the ability to browse and view WMI namespaces/classes/instances/properties in a single pane of view.</summary>
+    <releaseNotes>https://wmie.codeplex.com/documentation</releaseNotes>
+    <copyright>2014 Vinay Pamnani</copyright>
+    <tags>wmiexplorer wmi windows cim explorer</tags>
+    <projectSourceUrl>https://wmie.codeplex.com/SourceControl/latest</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Skatterbrainz/ChocolateyPackages/tree/master/wmiexplorer</packageSourceUrl>
+    <docsUrl>https://wmie.codeplex.com/documentation</docsUrl>
+    <bugTrackerUrl>https://wmie.codeplex.com/workitem/list/basic</bugTrackerUrl>
+  </metadata>
+</package>
