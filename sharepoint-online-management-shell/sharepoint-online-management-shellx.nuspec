@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sharepoint-online-management-shell</id>
+    <version>16.0.20122.12000</version>
+    <packageSourceUrl>https://github.com/Skatterbrainz/ChocolateyPackages/tree/master/sharepoint-online-management-shell</packageSourceUrl>
+    <owners>David Stein</owners>
+    <title>SharePoint Online Management Shell (Install)</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/office-readiness-toolkit.png</iconUrl>-->
+    <copyright>2020 Microsoft</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://www.microsoft.com/en-us/download/details.aspx?id=35588</projectSourceUrl>
+    <docsUrl>https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps</docsUrl>
+    <tags>sharepoint online management shell powershell microsoft</tags>
+    <summary>The SharePoint Online Management Shell is a tool that contains a Windows PowerShell Module to manage your SharePoint Online subscription in the Office 365.</summary>
+    <description>The SharePoint Online Management Shell is a tool that contains a Windows PowerShell Module to manage your SharePoint Online subscription in the Office 365.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
