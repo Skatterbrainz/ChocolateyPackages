@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sharepoint-online-management-shell</id>
-    <version>16.0.20212.12000</version>
+    <version>16.0.22111.12000</version>
     <packageSourceUrl>https://github.com/Skatterbrainz/ChocolateyPackages/tree/master/sharepoint-online-management-shell</packageSourceUrl>
     <owners>David Stein</owners>
     <title>SharePoint Online Management Shell (Install)</title>
     <authors>Microsoft</authors>
     <projectUrl>https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps</projectUrl>
-    <copyright>2020 Microsoft</copyright>
+    <copyright>2022 Microsoft</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://www.microsoft.com/en-us/download/details.aspx?id=35588</projectSourceUrl>
 	<licenseUrl>https://raw.githubusercontent.com/Azure/azure-powershell/preview/LICENSE.txt</licenseUrl>
