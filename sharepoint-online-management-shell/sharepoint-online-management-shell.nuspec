@@ -11,8 +11,7 @@
     <projectUrl>https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps</projectUrl>
     <copyright>2022 Microsoft</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://www.microsoft.com/en-us/download/details.aspx?id=35588</projectSourceUrl>
-	<licenseUrl>https://raw.githubusercontent.com/Azure/azure-powershell/preview/LICENSE.txt</licenseUrl>
+	<licenseUrl>https://www.microsoft.com/en-us/legal/terms-of-use</licenseUrl>
     <docsUrl>https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps</docsUrl>
     <tags>sharepoint online management shell powershell microsoft</tags>
     <summary>The SharePoint Online Management Shell is a tool that contains a Windows PowerShell Module to manage your SharePoint Online subscription in the Office 365.</summary>
