@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sharepoint-online-management-shell</id>
-    <version>16.0.22111.12000</version>
+    <version>16.0.22208.12000</version>
     <packageSourceUrl>https://github.com/Skatterbrainz/ChocolateyPackages/tree/master/sharepoint-online-management-shell</packageSourceUrl>
     <owners>David Stein</owners>
     <title>SharePoint Online Management Shell (Install)</title>
