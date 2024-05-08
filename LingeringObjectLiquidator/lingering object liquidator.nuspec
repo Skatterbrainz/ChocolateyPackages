@@ -4,21 +4,22 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lingering-object-liquidator</id>
-    <version>2.0.19</version>
+    <version>2.0.21</version>
     <packageSourceUrl>https://github.com/Skatterbrainz/ChocolateyPackages/tree/master/LingeringObjectLiquidator</packageSourceUrl>
     <owners>Skattebrainz</owners>
     <title>Lingering Object Liquidator (Install)</title>
     <authors>Microsoft</authors>
     <projectUrl>https://blogs.technet.microsoft.com/askds/2017/10/09/introducing-lingering-object-liquidator-v2/</projectUrl>
     <iconUrl>http://www.iconninja.com/files/275/570/417/microsoft-windows8-windows-icon.svg</iconUrl>
-    <copyright>2017 Microsoft Corporation</copyright>
-    <docsUrl>https://blogs.technet.microsoft.com/askds/2014/09/15/remove-lingering-objects-that-cause-ad-replication-error-8606-and-friends/</docsUrl>
-    <mailingListUrl>mailto:askdspub@microsoft.com</mailingListUrl>
-    <bugTrackerUrl>https://windowsserver.uservoice.com/forums/304621-active-directory?category_id=320170</bugTrackerUrl>
-    <tags>lingering object liquidator microsoft active directory</tags>
+    <copyright>2020 Microsoft Corporation</copyright>
+    <docsUrl>https://learn.microsoft.com/en-us/archive/blogs/askds/introducing-lingering-object-liquidator-v2</docsUrl>
+	<licenseUrl>https://learn.microsoft.com/en-us/archive/blogs/askds/introducing-lingering-object-liquidator-v2</licenseUrl>
+    <mailingListUrl>https://learn.microsoft.com/en-us/archive/blogs/askds/introducing-lingering-object-liquidator-v2</mailingListUrl>
+    <bugTrackerUrl>https://learn.microsoft.com/en-us/archive/blogs/askds/introducing-lingering-object-liquidator-v2</bugTrackerUrl>
+    <tags>lingering object liquidator lol mslol microsoft active directory</tags>
     <summary>Automates the discovery and removal of lingering AD forest objects</summary>
-    <description>Lingering Object Liquidator (version 2.0.19) automates the discovery and removal of lingering objects from an Active Directory Domain Services forest. </description>
-    <releaseNotes>https://blogs.technet.microsoft.com/askds/2017/10/09/introducing-lingering-object-liquidator-v2/</releaseNotes>
+    <description>Lingering Object Liquidator v2 (version 2.0.21) automates the discovery and removal of lingering objects from an Active Directory Domain Services forest. </description>
+    <releaseNotes>https://www.microsoft.com/en-us/download/details.aspx?id=56051</releaseNotes>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
