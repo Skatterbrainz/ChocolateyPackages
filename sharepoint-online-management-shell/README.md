@@ -4,8 +4,8 @@
 
 * Package Name: sharepoint-online-management-shell
 * Product Name: SharePoint Online Management Shell
-* Product Version: 16.0.24211.12000
-* Release Date: 10/28/2023
+* Product Version: 16.0.25311.12000
+* Release Date: 10/01/2024
 * Package link: https://chocolatey.org/packages/sharepoint-online-management-shell
 * Source link: https://www.microsoft.com/en-us/download/details.aspx?id=35588
 
